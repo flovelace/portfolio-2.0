@@ -93,3 +93,94 @@ body, html {
     padding-top: 20vh;
     }
 
+#tagline {
+    font-size: 50px;
+    width: 60%;
+}
+
+#portfolio {
+    width: 80%;
+    padding: 2% 10%;
+}
+
+#portfolio div h1 {
+    font-size: 40px;
+    background-image: linear-gradient(to left, #ff416C 0%, #ff4b2b 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    -webkit-animation: Gradient 20s ease infinite;
+    -moz-animation: gradient 20s ease infinite;
+    -o-animation: gradient 20s ease infinite;
+    animation: gradient 20s ease infinite;
+    font-family: 'comfortaa', cursive;
+}
+
+#skills {
+    margin: 4vh 0px !important;
+    padding: 2vh 0px !important;
+}
+
+#work {
+    margin: 4vh 0px !important;
+    padding: 2vh 0px !important;
+}
+
+.btn-one {
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    margin: 30px 10px;
+}
+
+.btn-one:hover {
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+}
+
+.project div {
+    font-weight: normal;
+}
+
+.btn-two {
+    color: #000;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background: #fff;
+    transition: 0.4s ease-in-out;
+    margin: 30px 10px;
+}
+
+.btn-two:hover {
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+
+#details {
+    margin: 6vh 0px;
+}
+
+.btn-social {
+    margin: 40px 20px;
+    padding: 15px 18px;
+    border-radius: 50%;
+
+}
+
+.btn-social:hover {
+    cursor: pointer;
+}
+

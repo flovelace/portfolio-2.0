@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- head data start -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +11,25 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eef06e274a.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
-
 </head>
+<!-- head data end -->
 <body>
+    <!-- Loading spinner -->
     <div id="loading">
         <div id="spinner"></div>
     </div>
+    <!-- header -->
     <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
         <div id="title">Ada Hoeg</div><br>
         <div id="links">
             <a href="#skills">skills</a>
-            <a href="#projects" style="margin:0px 60px;">projects</a>
+            <a href="#work" style="margin:0px 60px;">projects</a>
             <a href="#contact">contact</a>
         </div>
     </div>
-
+    <!-- Middle section -->
     <center>
         <div id="middle">
             <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
@@ -35,8 +38,9 @@
             </div>
         </div>
     </center>
-
+    <!-- Portfolio -->
     <div id="portfolio">
+        <!-- skills -->
         <div id="skills">
             <h1>Skills</h1>
             <div>
@@ -45,7 +49,7 @@
                 </p>
             </div>
         </div>
-
+        <!-- work -->
         <div id="work">
             <h1>works</h1>
 
@@ -80,17 +84,14 @@
                 <button class="btn-two"> Go to code base 3</button>
             </div>
         </div>
-    
+    </div>
     <div id="contact">
         <h1>contact.</h1>
-        <form>
-            <input type="text" placeholder="name" required>
-            <input type="email" placeholder="email" required><br>
-            <textarea placeholder="message" required rows="5"></textarea><br>
-            <button class="btn-one">send msg</button>
-        </form>
+            <div id="details">
+                <a class="btn-social"><i class="fa-brands fa-github fa-2xl fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"></i></a>
+                <a class="btn-social"><i class="fa-brands fa-linkedin fa-2xl fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"></i></a>
+            </div>
     </div>
-
     <div id="footer">
         designed and developed by Ada Hoeg
     </div>
